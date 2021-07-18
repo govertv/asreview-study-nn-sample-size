@@ -1,4 +1,5 @@
 # Code repository for: 'The effect of dataset size on neural network performance within systematic reviewing'
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5112498.svg)](https://zenodo.org/record/5112498)
 
 A repository of code accompanying a study into the effect of dataset size on neural network performance within systematic reviewing. The code here can be used to reproduce the simulation study included in the study. In the simulation study, the systematic review process contained in ASReview is applied to dataset samples of different sizes, using a neural network classifier. The results here were generated using ASReview v0.17.
 
