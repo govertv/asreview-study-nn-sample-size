@@ -1,0 +1,103 @@
+{
+  "output/simulation/software_s3200_p1/state_files/state_software_s3200_p1.h5": {
+    "settings": {
+      "data_name": "software_s3200_p1",
+      "model": "nn-2-layer",
+      "query_strategy": "max",
+      "balance_strategy": "double",
+      "feature_extraction": "doc2vec",
+      "n_instances": 1,
+      "n_prior_included": 1,
+      "n_prior_excluded": 1,
+      "mode": "simulate",
+      "model_param": {
+        "dense_width": 128,
+        "optimizer": "rmsprop",
+        "learn_rate": 1.0,
+        "regularization": 0.01,
+        "verbose": 0,
+        "epochs": 35,
+        "batch_size": 32,
+        "shuffle": false,
+        "class_weight": 30.0
+      },
+      "query_param": {},
+      "feature_param": {
+        "vector_size": 40,
+        "epochs": 33,
+        "min_count": 1,
+        "n_jobs": 1,
+        "window": 7,
+        "dm_concat": 0,
+        "dm": 2,
+        "dbow_words": 0,
+        "split_ta": 0,
+        "use_keywords": 0
+      },
+      "balance_param": {
+        "a": 2.155,
+        "alpha": 0.94,
+        "b": 0.789,
+        "beta": 1.0
+      }
+    },
+    "wss": {
+      "95": 89.4847972972973,
+      "100": 88.5625
+    },
+    "rrf": {
+      "5": 86.48648648648648,
+      "10": 97.2972972972973
+    },
+    "loss": 0.030318888532505014,
+    "time_to_discovery": {
+      "4": 1.0,
+      "19": 5.0,
+      "23": 11.0,
+      "31": 12.0,
+      "36": 25.0,
+      "18": 28.0,
+      "38": 29.0,
+      "2": 33.0,
+      "8": 42.0,
+      "26": 46.0,
+      "6": 48.0,
+      "32": 52.0,
+      "9": 53.0,
+      "13": 58.0,
+      "12": 62.0,
+      "37": 68.0,
+      "15": 85.0,
+      "16": 87.0,
+      "33": 89.0,
+      "35": 90.0,
+      "30": 102.0,
+      "27": 106.0,
+      "10": 113.0,
+      "7": 121.0,
+      "20": 122.0,
+      "28": 123.0,
+      "34": 127.0,
+      "21": 134.0,
+      "22": 136.0,
+      "3": 138.0,
+      "17": 145.0,
+      "14": 160.0,
+      "29": 167.0,
+      "5": 173.0,
+      "24": 185.0,
+      "25": 250.0,
+      "11": 366.0
+    },
+    "general": {
+      "n_queries": [
+        3201
+      ],
+      "n_states": 1,
+      "n_papers": 3202,
+      "n_included": 38,
+      "n_excluded": 3164,
+      "n_unlabeled": 0
+    }
+  }
+}

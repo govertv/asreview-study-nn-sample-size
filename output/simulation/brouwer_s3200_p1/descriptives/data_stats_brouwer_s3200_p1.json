@@ -1,0 +1,15 @@
+{
+  "output/preprocessed_data/brouwer_s3200_p1.csv": {
+    "n_papers": 3202,
+    "n_included": 5,
+    "n_excluded": 3197,
+    "n_unlabeled": 0,
+    "n_missing_title": 1,
+    "n_missing_title_included": 0,
+    "n_missing_abstract": 206,
+    "n_missing_abstract_included": 0,
+    "title_length": 100.04341036851967,
+    "abstract_length": 1458.006870705809,
+    "n_keywords": null
+  }
+}

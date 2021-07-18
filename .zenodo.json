@@ -1,0 +1,50 @@
+{
+	"description": "It is generally assumed that having more data available will lead to increased performance when using machine learning. This assumption was tested in a specific problem setting: using neural networks in combination with active learning to aid in systematic reviewing. This repository contains the scripts for performing a simulation study using the neural network clasifier as implemented in ASReview. The simulation mode was applied to different sized samples out of three different datasets, to measure the change in performance.",
+	"title": "Scripts for a simulation on the effect of dataset size on neural network performance for active learning applied to systematic reviewing",
+	"creators": [{
+			"name": "Verberg, Govert",
+			"affiliation": "Applied Data Science, Utrecht University, Utrecht, the Netherlands",
+			"orcid": "0000-0001-9282-4311"
+		}
+	],
+	"contributors": [{
+			"name": "Hofstee, Laura",
+			"affiliation": "Department of Research and Data Management Services, Information Technology Services, Utrecht University, Utrecht, the Netherlands",
+			"orcid": "0000-0001-9638-7657",
+			"type": "Supervisor" 
+		},
+		{
+			"name": "Bagheri, Ayoub",
+			"affiliation": "Department of Research and Data Management Services, Information Technology Services, Utrecht University, Utrecht, the Netherlands",
+			"orcid": "0000-0001-6366-2173",
+			"type": "Supervisor"
+		},
+
+		{
+			"name": "Van de Schoot, Rens",
+			"affiliation": "Department of Methodology and Statistics, Faculty of Social and Behavioral Sciences, Utrecht University, Utrecht, the Netherlands",
+			"orcid": "0000-0001-7736-2091",
+			"type": "ProjectLeader" 
+		},
+		{
+			"name": "De Bruin, Jonathan",
+			"affiliation": "Department of Research and Data Management Services, Information Technology Services, Utrecht University, Utrecht, the Netherlands",
+			"orcid": "0000-0002-4297-0502",
+			"type": "DataManager" 
+		}
+	],
+	"keywords": [
+		"ASReview",
+		"active learning",
+		"machine learning",
+		"KEYWORD"
+	],
+	"related_identifiers": [
+		{
+			"relation": "isSupplementTo",
+		 	"identifier": "https://doi.org/10.5281/zenodo.3345592"
+		}
+	],
+	"license": "MIT",
+	"upload_type": "software"
+}

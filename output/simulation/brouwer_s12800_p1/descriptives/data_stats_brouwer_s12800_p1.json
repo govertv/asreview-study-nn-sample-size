@@ -1,0 +1,15 @@
+{
+  "output/preprocessed_data/brouwer_s12800_p1.csv": {
+    "n_papers": 12802,
+    "n_included": 17,
+    "n_excluded": 12785,
+    "n_unlabeled": 0,
+    "n_missing_title": 1,
+    "n_missing_title_included": 0,
+    "n_missing_abstract": 812,
+    "n_missing_abstract_included": 0,
+    "title_length": 100.38728323699422,
+    "abstract_length": 1446.7901890329636,
+    "n_keywords": null
+  }
+}

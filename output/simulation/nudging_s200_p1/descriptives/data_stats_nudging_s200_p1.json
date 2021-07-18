@@ -1,0 +1,15 @@
+{
+  "output/preprocessed_data/nudging_s200_p1.csv": {
+    "n_papers": 202,
+    "n_included": 11,
+    "n_excluded": 191,
+    "n_unlabeled": 0,
+    "n_missing_title": 0,
+    "n_missing_title_included": 0,
+    "n_missing_abstract": 18,
+    "n_missing_abstract_included": 1,
+    "title_length": 105.64851485148515,
+    "abstract_length": 1593.4554455445545,
+    "n_keywords": null
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "output/simulation/nudging_s400_p1/state_files/state_nudging_s400_p1.h5": {
+    "settings": {
+      "data_name": "nudging_s400_p1",
+      "model": "nn-2-layer",
+      "query_strategy": "max",
+      "balance_strategy": "double",
+      "feature_extraction": "doc2vec",
+      "n_instances": 1,
+      "n_prior_included": 1,
+      "n_prior_excluded": 1,
+      "mode": "simulate",
+      "model_param": {
+        "dense_width": 128,
+        "optimizer": "rmsprop",
+        "learn_rate": 1.0,
+        "regularization": 0.01,
+        "verbose": 0,
+        "epochs": 35,
+        "batch_size": 32,
+        "shuffle": false,
+        "class_weight": 30.0
+      },
+      "query_param": {},
+      "feature_param": {
+        "vector_size": 40,
+        "epochs": 33,
+        "min_count": 1,
+        "n_jobs": 1,
+        "window": 7,
+        "dm_concat": 0,
+        "dm": 2,
+        "dbow_words": 0,
+        "split_ta": 0,
+        "use_keywords": 0
+      },
+      "balance_param": {
+        "a": 2.155,
+        "alpha": 0.94,
+        "b": 0.789,
+        "beta": 1.0
+      }
+    },
+    "wss": {
+      "95": 41.25,
+      "100": 46.0
+    },
+    "rrf": {
+      "5": 25.0,
+      "10": 45.0
+    },
+    "loss": 0.19950248756218902,
+    "time_to_discovery": {
+      "2": 4.0,
+      "14": 8.0,
+      "17": 9.0,
+      "15": 19.0,
+      "16": 20.0,
+      "4": 27.0,
+      "21": 28.0,
+      "19": 29.0,
+      "18": 40.0,
+      "11": 43.0,
+      "5": 44.0,
+      "8": 50.0,
+      "13": 68.0,
+      "7": 127.0,
+      "6": 134.0,
+      "10": 156.0,
+      "12": 178.0,
+      "9": 189.0,
+      "3": 215.0,
+      "20": 216.0
+    },
+    "general": {
+      "n_queries": [
+        401
+      ],
+      "n_states": 1,
+      "n_papers": 402,
+      "n_included": 21,
+      "n_excluded": 381,
+      "n_unlabeled": 0
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "output/preprocessed_data/software_s400_p1.csv": {
+    "n_papers": 402,
+    "n_included": 6,
+    "n_excluded": 396,
+    "n_unlabeled": 0,
+    "n_missing_title": 0,
+    "n_missing_title_included": 0,
+    "n_missing_abstract": 0,
+    "n_missing_abstract_included": 0,
+    "title_length": 81.18159203980099,
+    "abstract_length": 889.4527363184079,
+    "n_keywords": null
+  }
+}

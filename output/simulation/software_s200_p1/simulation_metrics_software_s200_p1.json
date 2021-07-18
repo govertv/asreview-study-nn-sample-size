@@ -1,0 +1,68 @@
+{
+  "output/simulation/software_s200_p1/state_files/state_software_s200_p1.h5": {
+    "settings": {
+      "data_name": "software_s200_p1",
+      "model": "nn-2-layer",
+      "query_strategy": "max",
+      "balance_strategy": "double",
+      "feature_extraction": "doc2vec",
+      "n_instances": 1,
+      "n_prior_included": 1,
+      "n_prior_excluded": 1,
+      "mode": "simulate",
+      "model_param": {
+        "dense_width": 128,
+        "optimizer": "rmsprop",
+        "learn_rate": 1.0,
+        "regularization": 0.01,
+        "verbose": 0,
+        "epochs": 35,
+        "batch_size": 32,
+        "shuffle": false,
+        "class_weight": 30.0
+      },
+      "query_param": {},
+      "feature_param": {
+        "vector_size": 40,
+        "epochs": 33,
+        "min_count": 1,
+        "n_jobs": 1,
+        "window": 7,
+        "dm_concat": 0,
+        "dm": 2,
+        "dbow_words": 0,
+        "split_ta": 0,
+        "use_keywords": 0
+      },
+      "balance_param": {
+        "a": 2.155,
+        "alpha": 0.94,
+        "b": 0.789,
+        "beta": 1.0
+      }
+    },
+    "wss": {
+      "95": 87.5,
+      "100": 87.5
+    },
+    "rrf": {
+      "5": 50.0,
+      "10": 50.0
+    },
+    "loss": 0.07920792079207921,
+    "time_to_discovery": {
+      "2": 7.0,
+      "3": 25.0
+    },
+    "general": {
+      "n_queries": [
+        201
+      ],
+      "n_states": 1,
+      "n_papers": 202,
+      "n_included": 3,
+      "n_excluded": 199,
+      "n_unlabeled": 0
+    }
+  }
+}

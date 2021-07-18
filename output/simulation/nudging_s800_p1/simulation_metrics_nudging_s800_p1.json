@@ -1,0 +1,106 @@
+{
+  "output/simulation/nudging_s800_p1/state_files/state_nudging_s800_p1.h5": {
+    "settings": {
+      "data_name": "nudging_s800_p1",
+      "model": "nn-2-layer",
+      "query_strategy": "max",
+      "balance_strategy": "double",
+      "feature_extraction": "doc2vec",
+      "n_instances": 1,
+      "n_prior_included": 1,
+      "n_prior_excluded": 1,
+      "mode": "simulate",
+      "model_param": {
+        "dense_width": 128,
+        "optimizer": "rmsprop",
+        "learn_rate": 1.0,
+        "regularization": 0.01,
+        "verbose": 0,
+        "epochs": 35,
+        "batch_size": 32,
+        "shuffle": false,
+        "class_weight": 30.0
+      },
+      "query_param": {},
+      "feature_param": {
+        "vector_size": 40,
+        "epochs": 33,
+        "min_count": 1,
+        "n_jobs": 1,
+        "window": 7,
+        "dm_concat": 0,
+        "dm": 2,
+        "dbow_words": 0,
+        "split_ta": 0,
+        "use_keywords": 0
+      },
+      "balance_param": {
+        "a": 2.155,
+        "alpha": 0.94,
+        "b": 0.789,
+        "beta": 1.0
+      }
+    },
+    "wss": {
+      "95": 53.375,
+      "100": 47.0
+    },
+    "rrf": {
+      "5": 12.5,
+      "10": 25.0
+    },
+    "loss": 0.16249999999999992,
+    "time_to_discovery": {
+      "8": 1.0,
+      "3": 3.0,
+      "20": 5.0,
+      "37": 18.0,
+      "6": 24.0,
+      "41": 52.0,
+      "28": 68.0,
+      "19": 71.0,
+      "9": 74.0,
+      "5": 78.0,
+      "21": 82.0,
+      "13": 84.0,
+      "16": 86.0,
+      "11": 87.0,
+      "30": 92.0,
+      "22": 95.0,
+      "24": 96.0,
+      "4": 100.0,
+      "18": 105.0,
+      "15": 107.0,
+      "25": 109.0,
+      "26": 112.0,
+      "14": 114.0,
+      "2": 115.0,
+      "38": 121.0,
+      "32": 122.0,
+      "31": 134.0,
+      "40": 135.0,
+      "17": 138.0,
+      "36": 139.0,
+      "27": 161.0,
+      "29": 181.0,
+      "12": 201.0,
+      "39": 211.0,
+      "7": 217.0,
+      "23": 222.0,
+      "35": 317.0,
+      "33": 333.0,
+      "34": 379.0,
+      "10": 424.0
+    },
+    "general": {
+      "n_queries": [
+        801
+      ],
+      "n_states": 1,
+      "n_papers": 802,
+      "n_included": 41,
+      "n_excluded": 761,
+      "n_unlabeled": 0
+    }
+  }
+}

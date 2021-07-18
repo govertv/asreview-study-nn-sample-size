@@ -1,0 +1,17 @@
+dataset_name,model,query_strategy,balance_strategy,feature_extraction,n_instances,wss95,wss100,rrf5,rrf10,loss,n_states
+output/simulation/brouwer_s12800_p1/state_files/state_brouwer_s12800_p1.h5,nn-2-layer,max,double,doc2vec,1,77.828125,77.828125,50.0,81.25,0.07100453054210279,1
+output/simulation/brouwer_s1600_p1/state_files/state_brouwer_s1600_p1.h5,nn-2-layer,max,double,doc2vec,1,90.0625,90.0625,0.0,100.0,0.09893882646691636,1
+output/simulation/brouwer_s25600_p1/state_files/state_brouwer_s25600_p1.h5,nn-2-layer,max,double,doc2vec,1,86.4375,85.47265625,68.75,93.75,0.039735665182407634,1
+output/simulation/brouwer_s3200_p1/state_files/state_brouwer_s3200_p1.h5,nn-2-layer,max,double,doc2vec,1,54.4375,54.4375,0.0,0.0,0.3266708307307933,1
+output/simulation/brouwer_s48975_p1/state_files/state_brouwer_s48975_p1.h5,nn-2-layer,max,double,doc2vec,1,85.65062469142,86.96273608984175,88.52459016393443,98.36065573770492,0.02018762905438719,1
+output/simulation/brouwer_s6400_p1/state_files/state_brouwer_s6400_p1.h5,nn-2-layer,max,double,doc2vec,1,32.0,32.0,25.0,25.0,0.321052014995314,1
+output/simulation/nudging_s1600_p1/state_files/state_nudging_s1600_p1.h5,nn-2-layer,max,double,doc2vec,1,60.0625,59.1875,15.0,43.75,0.13460518102372035,1
+output/simulation/nudging_s200_p1/state_files/state_nudging_s200_p1.h5,nn-2-layer,max,double,doc2vec,1,1.0,1.0,10.0,20.0,0.31485148514851485,1
+output/simulation/nudging_s400_p1/state_files/state_nudging_s400_p1.h5,nn-2-layer,max,double,doc2vec,1,41.25,46.0,25.0,45.0,0.19950248756218902,1
+output/simulation/nudging_s800_p1/state_files/state_nudging_s800_p1.h5,nn-2-layer,max,double,doc2vec,1,53.375,47.0,12.5,25.0,0.16249999999999992,1
+output/simulation/software_s1600_p1/state_files/state_software_s1600_p1.h5,nn-2-layer,max,double,doc2vec,1,67.1875,67.1875,84.21052631578948,94.73684210526315,0.04619225967540575,1
+output/simulation/software_s200_p1/state_files/state_software_s200_p1.h5,nn-2-layer,max,double,doc2vec,1,87.5,87.5,50.0,50.0,0.07920792079207921,1
+output/simulation/software_s3200_p1/state_files/state_software_s3200_p1.h5,nn-2-layer,max,double,doc2vec,1,89.4847972972973,88.5625,86.48648648648648,97.2972972972973,0.030318888532505014,1
+output/simulation/software_s400_p1/state_files/state_software_s400_p1.h5,nn-2-layer,max,double,doc2vec,1,93.5,93.5,60.0,100.0,0.03283582089552239,1
+output/simulation/software_s6400_p1/state_files/state_software_s6400_p1.h5,nn-2-layer,max,double,doc2vec,1,90.9375,55.671875,94.66666666666667,97.33333333333333,0.02522545038008955,1
+output/simulation/software_s800_p1/state_files/state_software_s800_p1.h5,nn-2-layer,max,double,doc2vec,1,93.25,93.25,66.66666666666667,100.0,0.03491271820448878,1

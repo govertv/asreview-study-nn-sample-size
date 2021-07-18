@@ -1,0 +1,70 @@
+{
+  "output/simulation/brouwer_s3200_p1/state_files/state_brouwer_s3200_p1.h5": {
+    "settings": {
+      "data_name": "brouwer_s3200_p1",
+      "model": "nn-2-layer",
+      "query_strategy": "max",
+      "balance_strategy": "double",
+      "feature_extraction": "doc2vec",
+      "n_instances": 1,
+      "n_prior_included": 1,
+      "n_prior_excluded": 1,
+      "mode": "simulate",
+      "model_param": {
+        "dense_width": 128,
+        "optimizer": "rmsprop",
+        "learn_rate": 1.0,
+        "regularization": 0.01,
+        "verbose": 0,
+        "epochs": 35,
+        "batch_size": 32,
+        "shuffle": false,
+        "class_weight": 30.0
+      },
+      "query_param": {},
+      "feature_param": {
+        "vector_size": 40,
+        "epochs": 33,
+        "min_count": 1,
+        "n_jobs": 1,
+        "window": 7,
+        "dm_concat": 0,
+        "dm": 2,
+        "dbow_words": 0,
+        "split_ta": 0,
+        "use_keywords": 0
+      },
+      "balance_param": {
+        "a": 2.155,
+        "alpha": 0.94,
+        "b": 0.789,
+        "beta": 1.0
+      }
+    },
+    "wss": {
+      "95": 54.4375,
+      "100": 54.4375
+    },
+    "rrf": {
+      "5": 0.0,
+      "10": 0.0
+    },
+    "loss": 0.3266708307307933,
+    "time_to_discovery": {
+      "2": 765.0,
+      "4": 911.0,
+      "3": 1050.0,
+      "5": 1458.0
+    },
+    "general": {
+      "n_queries": [
+        3201
+      ],
+      "n_states": 1,
+      "n_papers": 3202,
+      "n_included": 5,
+      "n_excluded": 3197,
+      "n_unlabeled": 0
+    }
+  }
+}

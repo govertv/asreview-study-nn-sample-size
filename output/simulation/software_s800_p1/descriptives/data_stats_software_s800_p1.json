@@ -1,0 +1,15 @@
+{
+  "output/preprocessed_data/software_s800_p1.csv": {
+    "n_papers": 802,
+    "n_included": 10,
+    "n_excluded": 792,
+    "n_unlabeled": 0,
+    "n_missing_title": 0,
+    "n_missing_title_included": 0,
+    "n_missing_abstract": 0,
+    "n_missing_abstract_included": 0,
+    "title_length": 80.26683291770574,
+    "abstract_length": 901.3915211970075,
+    "n_keywords": null
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "output/simulation/brouwer_s25600_p1/state_files/state_brouwer_s25600_p1.h5": {
+    "settings": {
+      "data_name": "brouwer_s25600_p1",
+      "model": "nn-2-layer",
+      "query_strategy": "max",
+      "balance_strategy": "double",
+      "feature_extraction": "doc2vec",
+      "n_instances": 1,
+      "n_prior_included": 1,
+      "n_prior_excluded": 1,
+      "mode": "simulate",
+      "model_param": {
+        "dense_width": 128,
+        "optimizer": "rmsprop",
+        "learn_rate": 1.0,
+        "regularization": 0.01,
+        "verbose": 0,
+        "epochs": 35,
+        "batch_size": 32,
+        "shuffle": false,
+        "class_weight": 30.0
+      },
+      "query_param": {},
+      "feature_param": {
+        "vector_size": 40,
+        "epochs": 33,
+        "min_count": 1,
+        "n_jobs": 1,
+        "window": 7,
+        "dm_concat": 0,
+        "dm": 2,
+        "dbow_words": 0,
+        "split_ta": 0,
+        "use_keywords": 0
+      },
+      "balance_param": {
+        "a": 2.155,
+        "alpha": 0.94,
+        "b": 0.789,
+        "beta": 1.0
+      }
+    },
+    "wss": {
+      "95": 86.4375,
+      "100": 85.47265625
+    },
+    "rrf": {
+      "5": 68.75,
+      "10": 93.75
+    },
+    "loss": 0.039735665182407634,
+    "time_to_discovery": {
+      "22": 22.0,
+      "20": 23.0,
+      "32": 148.0,
+      "24": 229.0,
+      "33": 240.0,
+      "29": 259.0,
+      "2": 273.0,
+      "27": 333.0,
+      "25": 578.0,
+      "3": 621.0,
+      "18": 837.0,
+      "26": 840.0,
+      "11": 871.0,
+      "13": 882.0,
+      "8": 955.0,
+      "23": 963.0,
+      "30": 998.0,
+      "17": 1020.0,
+      "7": 1057.0,
+      "6": 1058.0,
+      "19": 1074.0,
+      "12": 1084.0,
+      "16": 1289.0,
+      "21": 1370.0,
+      "10": 1372.0,
+      "14": 1378.0,
+      "9": 1405.0,
+      "4": 1558.0,
+      "31": 1559.0,
+      "5": 1867.0,
+      "28": 2672.0,
+      "15": 3719.0
+    },
+    "general": {
+      "n_queries": [
+        25601
+      ],
+      "n_states": 1,
+      "n_papers": 25602,
+      "n_included": 33,
+      "n_excluded": 25569,
+      "n_unlabeled": 0
+    }
+  }
+}

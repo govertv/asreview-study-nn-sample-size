@@ -1,0 +1,15 @@
+{
+  "output/preprocessed_data/brouwer_s48975_p1.csv": {
+    "n_papers": 48977,
+    "n_included": 62,
+    "n_excluded": 48915,
+    "n_unlabeled": 0,
+    "n_missing_title": 4,
+    "n_missing_title_included": 0,
+    "n_missing_abstract": 3004,
+    "n_missing_abstract_included": 0,
+    "title_length": 100.22569777650735,
+    "abstract_length": 1447.7042693509197,
+    "n_keywords": null
+  }
+}
